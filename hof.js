@@ -21,9 +21,30 @@ var people = [
 // called `peopleAges`.
 // Type your solution immediately below this line:
 
+var peopleAges = []
+for (i = 0; i < peopleAges.length; i++)
+  if(people = peopleAges[i])
+  people.push(peoplesAges)
+
+var peopleAges = people.map(getAges)
+
+
+
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who are WDI students. Assign the returned array
 // to a variable called `wdiStudents`.
 // Type your solution immediately below this line:
+
+function wdiStudents(people) {
+  return people.course("WDI")
+}
+ var wdiStudents = []
+ for (i = 0; i < peopleAges.length; i++) {
+   if (wdiStudents(people[i])) {
+     people.push(wdiStudents[i])
+   }
+ }
+
+var wdiStudents = people.filter(wdiStudents)
